@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selector - Class and Attribute Selector</title>
+        <style>
+            div.std1{
+                color:red;
+                
+                background-color:blue;
+            }
+            div.std1:hover{
+                background-color:azure;
+            }
+            div.std2{
+                color:green;
+                
+                background-color:purple;
+            }
+            div.std2:hover{
+                background-color:yellow;
+            }
+            div.std{
+                font-size: 2em;
+                text-decoration: underline;
+                width:300px;
+                height:300px;
+                border:10px solid black;
+                display: inline-block;
+                text-align:center;
+                line-height: 300px;
+            }
+            .std3{
+                color:orange;
+                
+                background-color:pink;
+            }
+            .std3:hover{
+                background-color:red;
+                color:white;
+                text-decoration: none;
+                font-size: 4em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="std1 std">Kiran</div>
+        <div class="std2 std">Anjali</div>
+        <div class="std3 std">Avinash</div>
+    </body>
+</html>

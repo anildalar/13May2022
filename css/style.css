@@ -1,0 +1,11 @@
+div[data-myname="anil"]{
+    color:red;
+}
+
+[data-myname="abhishek"]{
+    color:blue;
+}
+
+[data-myname="avinash"]{
+    color:orange;
+}

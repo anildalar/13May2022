@@ -1,0 +1,59 @@
+Types of CSS Selector.
+1. ID Selector #
+2. Class Selector .
+3. Attribute Selector [name=value]
+4. Psudo Class Selector  :
+			4.1 Hover Selector :hover
+
+Where we can write the css code ?
+1. Inside <head> tag
+2. Inline/Internal css
+3. External CSS
+
+selector{
+		property:value; == CSS Rule
+}
+
+
+1em = 16px;
+div.std1{
+			color:red;
+			font-size:1em;
+}
+
+px = pexelElement
+em = 	
+
+
+Create a BOX
+
+1. Width
+2. Height
+3. Background COlor
+
+
+Types of Tags/Element
+1. Block Level Tags  (Start From new LIne)
+			<div>
+2. Inline Tags
+
+Custom Attribute
+
+Custom Attribute always start with
+
+data-someattributename
+
+eg.
+		data-myattribute
+		data-anil
+		data-address
+X  data-phone
+
+href="address"
+Types of address
+1. Absolute Address
+				http
+2. Relative Addres
+				.
+
+<start attribute="value"></stag>
